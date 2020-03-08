@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "251718464005",
+    "firebase_url": "https://quadrant-e1df5.firebaseio.com",
+    "project_id": "quadrant-e1df5",
+    "storage_bucket": "quadrant-e1df5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251718464005:android:d7390f8c6e42384bbc226c",
+        "android_client_info": {
+          "package_name": "fergaral.quadrant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251718464005-feh27du884k1hffhi2odvhm67cqnbtr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7FH-EnO81oyYfFxTwcw47PvFz4i6Dgvc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251718464005-feh27du884k1hffhi2odvhm67cqnbtr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,76 @@
+{
+  "@@last_modified": "2020-03-06T13:04:36.827411",
+  "@@locale": "es",
+  "signIn": "Iniciar sesión",
+  "@signIn": {
+    "description": "Texto de iniciar sesión",
+    "type": "text",
+    "placeholders": {}
+  },
+  "signUp": "Registro",
+  "@signUp": {
+    "description": "Texto de registro",
+    "type": "text",
+    "placeholders": {}
+  },
+  "name": "Nombre",
+  "@name": {
+    "description": "Label del campo nombre",
+    "type": "text",
+    "placeholders": {}
+  },
+  "email": "E-mail",
+  "@email": {
+    "description": "Label del campo e-mail",
+    "type": "text",
+    "placeholders": {}
+  },
+  "password": "Contraseña",
+  "@password": {
+    "description": "Label del campo contraseña",
+    "type": "text",
+    "placeholders": {}
+  },
+  "forgotPassword": "¿Has olvidado tu contraseña?",
+  "@forgotPassword": {
+    "description": "Texto de has olvidado tu contraseña",
+    "type": "text",
+    "placeholders": {}
+  },
+  "signInButton": "INICIAR SESIÓN",
+  "@signInButton": {
+    "description": "Texto del botón de iniciar sesión",
+    "type": "text",
+    "placeholders": {}
+  },
+  "signUpButton": "REGISTRO",
+  "@signUpButton": {
+    "description": "Texto del botón de registro",
+    "type": "text",
+    "placeholders": {}
+  },
+  "or": "o",
+  "@or": {
+    "description": "Texto de o, utilizado como separador",
+    "type": "text",
+    "placeholders": {}
+  },
+  "signInWithGoogle": "Iniciar sesión con Google",
+  "@signInWithGoogle": {
+    "description": "Texto del botón de iniciar sesión con Google",
+    "type": "text",
+    "placeholders": {}
+  },
+  "submit": "Enviar",
+  "@submit": {
+    "description": "Texto del botón de enviar",
+    "type": "text",
+    "placeholders": {}
+  },
+  "enterEmail": "Introduce tu e-mail",
+  "@enterEmail": {
+    "description": "Descripción del texto de introducir e-mail",
+    "type": "text",
+    "placeholders": {}
+  }
+}

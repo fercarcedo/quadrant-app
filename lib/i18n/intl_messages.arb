@@ -1,0 +1,82 @@
+{
+  "@@last_modified": "2020-03-06T16:24:44.074833",
+  "@@locale": "en",
+  "appName": "Quadrant",
+  "@appName": {
+    "description": "App name",
+    "type": "text",
+    "placeholders": {}
+  },
+  "signIn": "Sign in",
+  "@signIn": {
+    "description": "Sign in text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "signUp": "Sign up",
+  "@signUp": {
+    "description": "Sign up text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "name": "Name",
+  "@name": {
+    "description": "User name field label",
+    "type": "text",
+    "placeholders": {}
+  },
+  "email": "E-mail",
+  "@email": {
+    "description": "E-mail field label",
+    "type": "text",
+    "placeholders": {}
+  },
+  "password": "Password",
+  "@password": {
+    "description": "Password field label",
+    "type": "text",
+    "placeholders": {}
+  },
+  "forgotPassword": "Forgot password?",
+  "@forgotPassword": {
+    "description": "Forgot password text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "signInButton": "SIGN IN",
+  "@signInButton": {
+    "description": "Sign in button text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "signUpButton": "SIGN UP",
+  "@signUpButton": {
+    "description": "Sign up button text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "or": "or",
+  "@or": {
+    "description": "or text, used as a separator",
+    "type": "text",
+    "placeholders": {}
+  },
+  "signInWithGoogle": "Sign in with Google",
+  "@signInWithGoogle": {
+    "description": "Sign in with Google button label",
+    "type": "text",
+    "placeholders": {}
+  },
+  "submit": "Submit",
+  "@submit": {
+    "description": "Submit label",
+    "type": "text",
+    "placeholders": {}
+  },
+  "enterEmail": "Enter your e-mail",
+  "@enterEmail": {
+    "description": "Enter email description text",
+    "type": "text",
+    "placeholders": {}
+  }
+}
