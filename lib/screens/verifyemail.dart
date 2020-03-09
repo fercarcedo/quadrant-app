@@ -1,5 +1,8 @@
+import 'package:animations/animations.dart';
 import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter/material.dart';
+import 'package:quadrant/screens/createjoincompany.dart';
+import 'package:quadrant/screens/util/sharedaxisroute.dart';
 
 class VerifyEmailScreen extends StatelessWidget {
 
@@ -23,7 +26,7 @@ class VerifyEmailScreen extends StatelessWidget {
                 Text('Verify your email', style: TextStyle(fontSize: 34), textAlign: TextAlign.center),
                 Padding(
                   padding: EdgeInsets.all(16),
-                  child: Text("We've sent you a verification email. Click the link inside it in order to verify your account. Once done, you can tap on login to start using the app", style: TextStyle(fontSize: 20), textAlign: TextAlign.center)
+                  child: Text("We've sent you a verification email. Click the link inside it in order to verify your account. Once done, you can tap on continue to start using the app", style: TextStyle(fontSize: 20), textAlign: TextAlign.center)
                 ),
               ]
             )
@@ -34,12 +37,25 @@ class VerifyEmailScreen extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
                 Padding(
-                  padding: EdgeInsets.only(left: 16, right: 16, bottom: 8),
-                  child: RaisedButton(child: Text('RESEND'), onPressed: (){}, color: Theme.of(context).accentColor)
+                  padding: EdgeInsets.only(left: 16, right: 16, bottom: 16),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      Text("Didn't receive the email?"),
+                      FlatButton(autofocus: false, clipBehavior: Clip.none, child: Text("Resend"), textColor: Theme.of(context).accentColor, onPressed: (){})
+                    ],
+                  )
                 ),
                 Padding(
-                  padding: EdgeInsets.only(left: 16, right: 16, bottom: 16),
-                  child: RaisedButton(child: Text('LOGIN'), onPressed: (){}, color: Theme.of(context).accentColor)
+                  padding: EdgeInsets.only(left: 16, right: 16, top: 4, bottom: 16),
+                  child: SizedBox(height: 50, child: RaisedButton(
+                    child: Text('CONTINUE'), 
+                    onPressed: (){
+                      final route = SharedAxisPageRoute(page: CreateJoinCompanyScreen(), transitionType: SharedAxisTransitionType.horizontal);
+                      Navigator.push(context, route);
+                    }, 
+                    color: Theme.of(context).accentColor
+                  ))
                 )
               ]
             )

@@ -54,7 +54,7 @@ flutter:
   assets:
     - assets/ic_launcher.png
     - assets/mailsent.flr
-    - assets/MultiOptionButton.flr
+    - assets/Building.flr
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
