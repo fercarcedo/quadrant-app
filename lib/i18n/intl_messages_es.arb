@@ -72,5 +72,77 @@
     "description": "Descripción del texto de introducir e-mail",
     "type": "text",
     "placeholders": {}
+  },
+    "company": "Empresa",
+  "@company": {
+    "description": "Título de la pantalla de crear o unirse a empresa",
+    "type": "text",
+    "placeholders": {}
+  },
+  "createJoinCompany": "Crea una nueva empresa si eres el gerente (una compañía solo puede tener a un usuario como gerente), permitiéndote añadir máquinas y períodos de inspección. Únete a una empresa existente si eres un empleado",
+  "@createJoinCompany": {
+    "description": "Texto de la pantalla de crear o unirse a empresa",
+    "type": "text",
+    "placeholders": {}
+  },
+  "createCompany": "CREAR EMPRESA",
+  "@createCompany": {
+    "description": "Texto del botón de crear empresa",
+    "type": "text",
+    "placeholders": {}
+  },
+  "joinCompany": "UNIRSE A EMPRESA",
+  "@joinCompany": {
+    "description": "Texto del botón de unirse a empresa",
+    "type": "text",
+    "placeholders": {}
+  },
+  "verifyEmail": "Verifica tu e-mail",
+  "@verifyEmail": {
+    "description": "Texto de la pantalla de verificar e-mail",
+    "type": "text",
+    "placeholders": {}
+  },
+  "verificationEmailSent": "Te hemos enviado un e-mail de verificación. Pulsa en el enlace que contiene para verificar tu cuenta y después puedes pulsar en continuar para empezar a utilizar la app",
+  "@verificationEmailSent": {
+    "description": "Texto largo explicando que el e-mail de verificación ha sido enviado y cómo verificar la cuenta",
+    "type": "text",
+    "placeholders": {}
+  },
+  "didntReceiveEmail": "¿No has recibido el e-mail?",
+  "@didntReceiveEmail": {
+    "description": "Texto de no has recibido el e-mail",
+    "type": "text",
+    "placeholders": {}
+  },
+  "resend": "Volver a enviar",
+  "@resend": {
+    "description": "Texto de volver a enviar el e-mail de verificación",
+    "type": "text",
+    "placeholders": {}
+  },
+  "continueBtn": "CONTINUAR",
+  "@continueBtn": {
+    "description": "Texto del botón de continuar",
+    "type": "text",
+    "placeholders": {}
+  },
+  "scanCompanyCode": "Escanear código de empresa",
+  "@scanCompanyCode": {
+    "description": "Título de la pantalla de escanear código de empresa",
+    "type": "text",
+    "placeholders": {}
+  },
+  "scanCompanyCodeInstructions": "Escanea el código de empresa del teléfono del gerente. El gerente puede acceder al código QR desde la pantalla principal de la app pulsando en el botón del QR de la parte superior",
+  "@scanCompanyCodeInstructions": {
+    "description": "Scan company code instructions",
+    "type": "text",
+    "placeholders": {}
+  },
+  "scanBtn": "ESCANEAR",
+  "@scanBtn": {
+    "description": "Texto del botón escanear",
+    "type": "text",
+    "placeholders": {}
   }
 }

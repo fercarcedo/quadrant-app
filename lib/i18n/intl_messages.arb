@@ -1,5 +1,5 @@
 {
-  "@@last_modified": "2020-03-06T16:24:44.074833",
+  "@@last_modified": "2020-03-09T11:42:59.062129",
   "@@locale": "en",
   "appName": "Quadrant",
   "@appName": {
@@ -25,9 +25,9 @@
     "type": "text",
     "placeholders": {}
   },
-  "email": "E-mail",
+  "email": "Email",
   "@email": {
-    "description": "E-mail field label",
+    "description": "Email field label",
     "type": "text",
     "placeholders": {}
   },
@@ -73,9 +73,81 @@
     "type": "text",
     "placeholders": {}
   },
-  "enterEmail": "Enter your e-mail",
+  "enterEmail": "Enter your email",
   "@enterEmail": {
     "description": "Enter email description text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "company": "Company",
+  "@company": {
+    "description": "Company",
+    "type": "text",
+    "placeholders": {}
+  },
+  "createJoinCompany": "Create a new company if you are the manager (a company can only have one user as manager), allowing you to add machines and inspection schedules. Join an existing company if you are an employee",
+  "@createJoinCompany": {
+    "description": "Create or join company screen text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "createCompany": "CREATE COMPANY",
+  "@createCompany": {
+    "description": "Create company button text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "joinCompany": "JOIN COMPANY",
+  "@joinCompany": {
+    "description": "Join company button text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "verifyEmail": "Verify your email",
+  "@verifyEmail": {
+    "description": "Verify email screen text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "verificationEmailSent": "We've sent you a verification email. Click the link inside it in order to verify your account. Once done, you can tap on continue to start using the app",
+  "@verificationEmailSent": {
+    "description": "Long text explaining that the verification email has been sent and how to verify your account",
+    "type": "text",
+    "placeholders": {}
+  },
+  "didntReceiveEmail": "Didn't receive the email?",
+  "@didntReceiveEmail": {
+    "description": "Didn't receive the email label text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "resend": "Resend",
+  "@resend": {
+    "description": "Resend verification email button text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "continueBtn": "CONTINUE",
+  "@continueBtn": {
+    "description": "Continue button text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "scanCompanyCode": "Scan company code",
+  "@scanCompanyCode": {
+    "description": "Scan company code screen title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "scanCompanyCodeInstructions": "Scan the company code from the manager's phone. The manager can access the QR code from the main screen of the app by tapping on the QR button at the top",
+  "@scanCompanyCodeInstructions": {
+    "description": "Scan company code instructions",
+    "type": "text",
+    "placeholders": {}
+  },
+  "scanBtn": "SCAN",
+  "@scanBtn": {
+    "description": "Scan button text",
     "type": "text",
     "placeholders": {}
   }

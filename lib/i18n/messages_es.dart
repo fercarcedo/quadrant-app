@@ -21,17 +21,29 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
+    "company" : MessageLookupByLibrary.simpleMessage("Empresa"),
+    "continueBtn" : MessageLookupByLibrary.simpleMessage("CONTINUAR"),
+    "createCompany" : MessageLookupByLibrary.simpleMessage("CREAR EMPRESA"),
+    "createJoinCompany" : MessageLookupByLibrary.simpleMessage("Crea una nueva empresa si eres el gerente (una compañía solo puede tener a un usuario como gerente), permitiéndote añadir máquinas y períodos de inspección. Únete a una empresa existente si eres un empleado"),
+    "didntReceiveEmail" : MessageLookupByLibrary.simpleMessage("¿No has recibido el e-mail?"),
     "email" : MessageLookupByLibrary.simpleMessage("E-mail"),
     "enterEmail" : MessageLookupByLibrary.simpleMessage("Introduce tu e-mail"),
     "forgotPassword" : MessageLookupByLibrary.simpleMessage("¿Has olvidado tu contraseña?"),
+    "joinCompany" : MessageLookupByLibrary.simpleMessage("UNIRSE A EMPRESA"),
     "name" : MessageLookupByLibrary.simpleMessage("Nombre"),
     "or" : MessageLookupByLibrary.simpleMessage("o"),
     "password" : MessageLookupByLibrary.simpleMessage("Contraseña"),
+    "resend" : MessageLookupByLibrary.simpleMessage("Volver a enviar"),
+    "scanBtn" : MessageLookupByLibrary.simpleMessage("ESCANEAR"),
+    "scanCompanyCode" : MessageLookupByLibrary.simpleMessage("Escanear código de empresa"),
+    "scanCompanyCodeInstructions" : MessageLookupByLibrary.simpleMessage("Escanea el código de empresa del teléfono del gerente. El gerente puede acceder al código QR desde la pantalla principal de la app pulsando en el botón del QR de la parte superior"),
     "signIn" : MessageLookupByLibrary.simpleMessage("Iniciar sesión"),
     "signInButton" : MessageLookupByLibrary.simpleMessage("INICIAR SESIÓN"),
     "signInWithGoogle" : MessageLookupByLibrary.simpleMessage("Iniciar sesión con Google"),
     "signUp" : MessageLookupByLibrary.simpleMessage("Registro"),
     "signUpButton" : MessageLookupByLibrary.simpleMessage("REGISTRO"),
-    "submit" : MessageLookupByLibrary.simpleMessage("Enviar")
+    "submit" : MessageLookupByLibrary.simpleMessage("Enviar"),
+    "verificationEmailSent" : MessageLookupByLibrary.simpleMessage("Te hemos enviado un e-mail de verificación. Pulsa en el enlace que contiene para verificar tu cuenta y después puedes pulsar en continuar para empezar a utilizar la app"),
+    "verifyEmail" : MessageLookupByLibrary.simpleMessage("Verifica tu e-mail")
   };
 }

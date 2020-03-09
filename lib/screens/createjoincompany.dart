@@ -1,5 +1,9 @@
+import 'package:animations/animations.dart';
 import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter/material.dart';
+import 'package:quadrant/i18n/app_messages.dart';
+import 'package:quadrant/screens/scanqrinstructions.dart';
+import 'package:quadrant/screens/util/sharedaxisroute.dart';
 
 class CreateJoinCompanyScreen extends StatelessWidget {
 
@@ -20,10 +24,10 @@ class CreateJoinCompanyScreen extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                Text('Company', style: TextStyle(fontSize: 34), textAlign: TextAlign.center),
+                Text(AppMessages.of(context).company, style: TextStyle(fontSize: 34), textAlign: TextAlign.center),
                 Padding(
                   padding: EdgeInsets.all(16),
-                  child: Text("Create a new company if you are the manager (a company can only have one user as manager), allowing you to add machines and inspection schedules. Join an existing company if you are an employee", style: TextStyle(fontSize: 20), textAlign: TextAlign.center)
+                  child: Text(AppMessages.of(context).createJoinCompany, style: TextStyle(fontSize: 20), textAlign: TextAlign.center)
                 ),
               ]
             )
@@ -35,11 +39,14 @@ class CreateJoinCompanyScreen extends StatelessWidget {
               children: <Widget>[
                 Padding(
                   padding: EdgeInsets.only(left: 16, right: 16, bottom: 16),
-                  child: SizedBox(height: 50, child: RaisedButton(child: Text('CREATE COMPANY'), onPressed: (){}, color: Theme.of(context).accentColor))
+                  child: SizedBox(height: 50, child: RaisedButton(child: Text(AppMessages.of(context).createCompany), onPressed: (){}, color: Theme.of(context).accentColor))
                 ),
                 Padding(
                   padding: EdgeInsets.only(left: 16, top: 4, right: 16, bottom: 16),
-                  child: SizedBox(height: 50, child: RaisedButton(child: Text('JOIN COMPANY'), onPressed: (){}, color: Theme.of(context).accentColor))
+                  child: SizedBox(height: 50, child: RaisedButton(child: Text(AppMessages.of(context).joinCompany), onPressed: (){
+                    final route = SharedAxisPageRoute(page: ScanQrInstructions(), transitionType: SharedAxisTransitionType.horizontal);
+                    Navigator.push(context, route);
+                  }, color: Theme.of(context).accentColor))
                 )
               ]
             )
